@@ -166,7 +166,7 @@ public class MainActivity extends AppCompatActivity {
                 set.start();
 
                 //count from  0 to  100
-                ValueAnimator animator = ValueAnimator.ofInt(3330,0);
+                ValueAnimator animator = ValueAnimator.ofInt(30,0);
                 animator.reverse();  // count down
                 //do it 1000  milliseconds
                 animator.setDuration(1000);
